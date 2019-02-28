@@ -1,0 +1,26 @@
+{
+  "name": "disc-dist",
+  "version": "1.0.0",
+  "description": "Sample arbitrary discrete probability distributions.  Extremely fast.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbrickner/disc-dist.git"
+  },
+  "keywords": [
+    "discrete",
+    "distribution",
+    "probability",
+    "statistics",
+    "fast"
+  ],
+  "author": "Will Brickner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbrickner/disc-dist/issues"
+  },
+  "homepage": "https://github.com/wbrickner/disc-dist#readme"
+}
