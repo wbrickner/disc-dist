@@ -2,7 +2,7 @@ function comparitor(a, b) { return parseFloat(b) - parseFloat(a) }
 
 function randomSingleUse(distribution) {
     // sort largest items first so we have the best chance of returning early
-    distribution.sort(comparitor)
+    // distribution.sort(comparitor)
 
     // define these together for performance
     let sum = 0
@@ -43,7 +43,7 @@ function randomMultiUse(distribution) {
     // and gets executed as many times, making it "hot", i.e. V8 will heavily optimize it
     const rmu = Object.create(randomMultiUsePrototype)
 
-    distribution.sort(comparitor)
+    // distribution.sort(comparitor)
 
     let sum = 0
     for (var j = 0, jlen = distribution.length; j < jlen; ++j) {
