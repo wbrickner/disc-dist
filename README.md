@@ -1,7 +1,7 @@
 # DiscDist (Discrete Distribution)
 
-DiskDist accepts an array of numbers, and returns a random index from that array, with a probability distribution which matches the elements in the array.
-**DiskDist is highly performant (when used correctly).**
+DiscDist accepts an array of numbers, and returns a random index from that array, with a probability distribution which matches the elements in the array.
+**DiscDist is highly performant (when used correctly).**
 
 For example:
 
@@ -43,9 +43,9 @@ let multiuse = discDist.randomMultiUse(dist)
 let randomIndex = multiuse.random()
 ```
 
-# Performance
+# Complexity
 
-DiskDist runs in `O(n)` in the worst case.
+- DiscDist runs in `O(n)` in the worst case.
 
 Because of the random nature of the algorithm, the average case can be much better depending on your distribution.
 
